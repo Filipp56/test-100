@@ -1,0 +1,45 @@
+img{
+    width: 100%
+}
+body{
+    background-color: aquamarine;
+}
+.pic{
+    overflow: hidden;
+    width: 1000px;
+    display: none;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+ }
+ #toggler1:checked ~ .pic1{
+     display: block;
+     box-shadow: 10px 5px 5px black;
+     border-radius: 10px;
+     transition: 0.1s ease-out;
+ }
+ #toggler2:checked ~ .pic2{
+    display: block;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+    transition: 0.1s ease-out;
+}
+ #toggler3:checked ~ .pic3{
+    display: block;
+    box-shadow: 10px 5px 5px black;
+    transition: 0.1s ease-out;
+}
+ #toggler4:checked ~ .pic4{
+    display: block;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+    transition: 0.1s ease-out;
+}
+.labels{
+    width: 500px;
+    height: auto;
+    display: flex; 
+}
+input[type=radio]{
+    display: none;
+
+}
